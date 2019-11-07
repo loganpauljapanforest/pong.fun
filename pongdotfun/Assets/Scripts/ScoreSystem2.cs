@@ -23,10 +23,13 @@ public class ScoreSystem2 : MonoBehaviour
             scoreValue2 += 1;
             ScoreText.text = "Score: " + scoreValue2;
             Ball.transform.position = new Vector2(0, 0);
+            Ball.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            Ball.GetComponent<Rigidbody2D>().angularVelocity = 0;
+            Ball.transform.rotation = new Quaternion();
         }
         if (scoreValue2 > 11)
         {
-            SceneManager.LoadScene("winscreen");
+            SceneManager.LoadScene("winscreen2");
         }
     }
 }

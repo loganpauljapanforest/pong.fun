@@ -23,6 +23,9 @@ public class ScoreSystem : MonoBehaviour
             scoreValue += 1;
             ScoreText.text = "Score: " + scoreValue;
             Ball.transform.position = new Vector2(0, 0);
+            Ball.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            Ball.GetComponent<Rigidbody2D>().angularVelocity = 0;
+            Ball.transform.rotation = new Quaternion();
         }
         if(scoreValue > 11)
         {
