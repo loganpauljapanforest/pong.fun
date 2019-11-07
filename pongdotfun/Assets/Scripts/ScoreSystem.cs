@@ -22,8 +22,7 @@ public class ScoreSystem : MonoBehaviour
         {
             scoreValue += 1;
             ScoreText.text = "Score: " + scoreValue;
-            Destroy(Ball.gameObject);
-            Ball = Instantiate(Ball, new Vector3(0, 0, 0), new Quaternion());
+            Ball.transform.position = new Vector2(0, 0);
         }
         if(scoreValue > 11)
         {
