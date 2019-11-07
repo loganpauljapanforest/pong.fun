@@ -26,7 +26,7 @@ public class ScoreSystem2 : MonoBehaviour
         }
         if (scoreValue2 > 11)
         {
-            SceneManager.LoadScene("winscreen");
+            SceneManager.LoadScene("winscreen2");
         }
     }
 }
