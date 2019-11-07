@@ -18,7 +18,7 @@ public class ScoreSystem2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Ball.transform.position.x <= 11.38f && Ball)
+        if (Ball.transform.position.x >= 11.38f && Ball)
         {
             scoreValue2 += 1;
             ScoreText.text = "Score: " + scoreValue2;
