@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeftController : MonoBehaviour
+public class RightController : MonoBehaviour
 {
     private Rigidbody2D myRigidBody;
     public float Speed;
@@ -19,24 +19,24 @@ public class LeftController : MonoBehaviour
     {
 
 
-        if (Input.GetAxis("VerticalLeft") > 0.1)
+        if (Input.GetAxis("VerticalRight") > 0.1)
         {
 
             myRigidBody.AddForce(movementy);
         }
 
-        if (Input.GetAxis("VerticalLeft") < -0.1)
+        if (Input.GetAxis("VerticalRight") < -0.1)
         {
             myRigidBody.AddForce(-movementy);
         }
 
-        if (Input.GetAxis("HorizontalLeft") > 0.1)
+        if (Input.GetAxis("HorizontalRight") > 0.1)
         {
 
             myRigidBody.AddForce(movementx);
         }
 
-        if (Input.GetAxis("HorizontalLeft") < -0.1)
+        if (Input.GetAxis("HorizontalRight") < -0.1)
         {
             myRigidBody.AddForce(-movementx);
         }
