@@ -306,7 +306,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 668366207}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -339,11 +339,11 @@ Rigidbody2D:
   m_LinearDrag: 2
   m_AngularDrag: 0.2
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &668366212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,7 +825,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1079522358}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -858,11 +858,11 @@ Rigidbody2D:
   m_LinearDrag: 2
   m_AngularDrag: 0.2
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1079522363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,7 +904,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1118001053}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -937,7 +937,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1032,7 +1032,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1128068127}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1065,7 +1065,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1288,7 +1288,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1238826562}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1321,7 +1321,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4510d1cdbf0a8242af2f269c82c464b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue2: 0
-  ScoreText: {fileID: 1672984857}
+  ScoreText2: {fileID: 1672984857}
   Ball: {fileID: 1238826562}
 --- !u!114 &1672984857
 MonoBehaviour:
