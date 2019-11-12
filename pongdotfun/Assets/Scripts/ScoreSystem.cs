@@ -14,7 +14,7 @@ public class ScoreSystem : MonoBehaviour
     {
         scoreValue = 0;
         ScoreText.text = "Score: 0";
-        Ball.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-5f, 5f), Random.Range(-3f, 3f)).normalized*speed;
+        Ball.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-4f, 4f), Random.Range(-2f, 2f)).normalized*speed;
     }
 
     // Update is called once per frame
