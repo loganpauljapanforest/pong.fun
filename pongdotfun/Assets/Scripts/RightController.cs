@@ -17,29 +17,32 @@ public class RightController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-        if (Input.GetAxis("VerticalRight") > 0.1)
+        
+        if (Input.GetAxis("VerticalRight") > 0.1 ) // up
         {
 
             myRigidBody.AddForce(movementy);
         }
 
-        if (Input.GetAxis("VerticalRight") < -0.1)
+        if (Input.GetAxis("VerticalRight") < -0.1) // down
         {
             myRigidBody.AddForce(-movementy);
         }
 
-        if (Input.GetAxis("HorizontalRight") > 0.1)
+        if (Input.GetAxis("HorizontalRight") > 0.1 ) // right
         {
 
             myRigidBody.AddForce(movementx);
         }
 
-        if (Input.GetAxis("HorizontalRight") < -0.1)
+        if (Input.GetAxis("HorizontalRight") < -0.1 && myRigidBody.transform.position.x > 2) // left
         {
             myRigidBody.AddForce(-movementx);
         }
+        if(myRigidBody.transform.position.x < 2) // if crossed left border
+        {
+            myRigidBody.velocity = new Vector3(0, 0, 0);
 
+        }
     }
 }
