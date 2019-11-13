@@ -9,6 +9,7 @@ public class ScoreSystem2 : MonoBehaviour
     public Text ScoreText2;
     public GameObject Ball;
     public GameObject Slab;
+    public GameObject Slab2;
     public float speed = 4f;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class ScoreSystem2 : MonoBehaviour
         scoreValue2 = 0;
         ScoreText2.text = "Score: 0";
         Slab.GetComponent<Rigidbody2D>();
+        Slab2.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class ScoreSystem2 : MonoBehaviour
             Ball.transform.position = new Vector2(0, 0);
             Ball.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-5f, 5f), Random.Range(-3f, 3f)).normalized * speed;
             Slab.transform.position = new Vector2(8, 0);
+            Slab2.transform.position = new Vector2(-8, 0);
         }
         if (scoreValue2 >= 11)
         {

@@ -174,6 +174,7 @@ MonoBehaviour:
   ScoreText: {fileID: 573487476}
   Ball: {fileID: 1238826562}
   Slab: {fileID: 1079522358}
+  Slab2: {fileID: 668366207}
   speed: 3
 --- !u!114 &573487476
 MonoBehaviour:
@@ -232,7 +233,7 @@ GameObject:
   - component: {fileID: 668366212}
   m_Layer: 0
   m_Name: BatRight
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -373,7 +374,7 @@ GameObject:
   - component: {fileID: 833565967}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -751,7 +752,7 @@ GameObject:
   - component: {fileID: 1079522363}
   m_Layer: 0
   m_Name: BatLeft
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -892,7 +893,7 @@ GameObject:
   - component: {fileID: 1118001054}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1020,7 +1021,7 @@ GameObject:
   - component: {fileID: 1128068128}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1148,7 +1149,7 @@ GameObject:
   - component: {fileID: 1186004371}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1274,6 +1275,7 @@ GameObject:
   - component: {fileID: 1238826565}
   - component: {fileID: 1238826564}
   - component: {fileID: 1238826563}
+  - component: {fileID: 1238826567}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1390,6 +1392,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238826567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238826562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85044c1a4040c6447921f60b1165f4c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1672984854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1458,7 @@ MonoBehaviour:
   ScoreText2: {fileID: 1672984857}
   Ball: {fileID: 1238826562}
   Slab: {fileID: 668366207}
+  Slab2: {fileID: 1079522358}
   speed: 3
 --- !u!114 &1672984857
 MonoBehaviour:
@@ -1501,7 +1516,7 @@ GameObject:
   - component: {fileID: 1884316056}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1629,7 +1644,7 @@ GameObject:
   - component: {fileID: 2085291590}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: nonplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
