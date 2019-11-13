@@ -173,6 +173,8 @@ MonoBehaviour:
   scoreValue: 0
   ScoreText: {fileID: 573487476}
   Ball: {fileID: 1238826562}
+  Slab: {fileID: 1079522358}
+  speed: 3
 --- !u!114 &573487476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1441,6 +1443,8 @@ MonoBehaviour:
   scoreValue2: 0
   ScoreText2: {fileID: 1672984857}
   Ball: {fileID: 1238826562}
+  Slab: {fileID: 668366207}
+  speed: 3
 --- !u!114 &1672984857
 MonoBehaviour:
   m_ObjectHideFlags: 0

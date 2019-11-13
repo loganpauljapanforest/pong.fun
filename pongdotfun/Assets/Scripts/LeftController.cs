@@ -17,29 +17,32 @@ public class LeftController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+            if (Input.GetAxis("VerticalLeft") > 0.1) // up
+            {
 
+                myRigidBody.AddForce(movementy);
+            }
 
-        if (Input.GetAxis("VerticalLeft") > 0.1)
-        {
+            if (Input.GetAxis("VerticalLeft") < -0.1) // down
+            {
+                myRigidBody.AddForce(-movementy);
+            }
 
-            myRigidBody.AddForce(movementy);
-        }
+            if (Input.GetAxis("HorizontalLeft") > 0.1 && myRigidBody.transform.position.x < -2) // right
+            {
 
-        if (Input.GetAxis("VerticalLeft") < -0.1)
-        {
-            myRigidBody.AddForce(-movementy);
-        }
+                myRigidBody.AddForce(movementx);
+                if (myRigidBody.transform.position.x > -2f)
+                {
+                myRigidBody.velocity = new Vector3(0, myRigidBody.velocity.y);
+                }
+             }
 
-        if (Input.GetAxis("HorizontalLeft") > 0.1)
-        {
-
-            myRigidBody.AddForce(movementx);
-        }
-
-        if (Input.GetAxis("HorizontalLeft") < -0.1)
-        {
-            myRigidBody.AddForce(-movementx);
-        }
+            if (Input.GetAxis("HorizontalLeft") < -0.1) // left
+            {
+                myRigidBody.AddForce(-movementx);
+            }
+             
 
     }
 }
