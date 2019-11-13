@@ -39,10 +39,11 @@ public class RightController : MonoBehaviour
         {
             myRigidBody.AddForce(-movementx);
         }
-        if(myRigidBody.transform.position.x < 2) // if crossed left border
+        if (myRigidBody.transform.position.x < 2f)
         {
-            myRigidBody.velocity = new Vector3(0, 0, 0);
-
+            myRigidBody.transform.position = new Vector2(2f, transform.position.y);
+            // myRigidBody.AddForce(-force);
+            myRigidBody.velocity = new Vector2(0, myRigidBody.velocity.y);
         }
     }
 }
