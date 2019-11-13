@@ -34,7 +34,7 @@ public class LeftController : MonoBehaviour
                 myRigidBody.AddForce(movementx);
                 if (myRigidBody.transform.position.x > -2f)
                 {
-                myRigidBody.velocity = new Vector3(0, myRigidBody.velocity.y);
+                myRigidBody.velocity = new Vector3(0, 0, 0);
                 }
              }
 
