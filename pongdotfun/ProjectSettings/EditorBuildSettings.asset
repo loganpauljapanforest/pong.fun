@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/game.unity
     guid: b987463b75427784da2911ac0f29db57
   - enabled: 1
-    path: Assets/Scenes/realgame.unity
+    path: Assets/Scenes/oldgame.unity
     guid: a5aec2265ea0b8c4f846434969e7ebbe
   - enabled: 1
     path: Assets/Scenes/winscreen.unity
