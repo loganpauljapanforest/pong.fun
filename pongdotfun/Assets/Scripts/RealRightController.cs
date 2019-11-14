@@ -18,12 +18,12 @@ public class RealRightController : MonoBehaviour
     {
 
 
-        if (Input.GetAxis("VerticalRight") > 0.1)
+        if (Input.GetAxis("VerticalRight") > 0.1 && transform.position.y < 3.5)
         {
 
             transform.position += new Vector3(0, 5, 0) * Time.deltaTime;
         }
-        if (Input.GetAxis("VerticalRight") < -0.1)
+        if (Input.GetAxis("VerticalRight") < -0.1 && transform.position.y > -3.5)
         {
             transform.position += new Vector3(0, -5, 0) * Time.deltaTime;
         }

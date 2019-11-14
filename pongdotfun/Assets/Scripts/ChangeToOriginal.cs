@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Changeleveltopropergame : MonoBehaviour
+public class ChangetoOriginal : MonoBehaviour
 {
     public void NextScene()
     {

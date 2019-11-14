@@ -18,12 +18,12 @@ public class RealLeftController : MonoBehaviour
     {
 
 
-        if (Input.GetAxis("VerticalLeft") > 0.1 && transform.position.y < 3.8)
+        if (Input.GetAxis("VerticalLeft") > 0.1 && transform.position.y < 3.5)
         {
        
             transform.position += new Vector3(0,5,0) * Time.deltaTime;
         }
-        else if (Input.GetAxis("VerticalLeft") < -0.1 && transform.position.y > -3.8)
+        else if (Input.GetAxis("VerticalLeft") < -0.1 && transform.position.y > -3.5)
         {
             transform.position += new Vector3(0, -5, 0) * Time.deltaTime;
         } 

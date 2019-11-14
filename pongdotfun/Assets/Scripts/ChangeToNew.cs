@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Changelevelafterwin : MonoBehaviour
+public class ChangeToNew : MonoBehaviour
 {
     // Start is called before the first frame update
     public void NextScene()
