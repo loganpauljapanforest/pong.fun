@@ -9,13 +9,6 @@ public class PlayOnConstant : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<AudioSource>().clip = audios[0];
-        GetComponent<AudioSource>().Play();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (SceneManager.GetActiveScene().name == "SampleScene")
         {
 
@@ -37,5 +30,11 @@ public class PlayOnConstant : MonoBehaviour
             GetComponent<AudioSource>().clip = audios[3];
             GetComponent<AudioSource>().Play();
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
