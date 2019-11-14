@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangetoOriginal : MonoBehaviour
+public class ChangeToOriginal : MonoBehaviour
 {
     public void NextScene()
     {
