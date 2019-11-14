@@ -34,13 +34,17 @@ public class LeftController : MonoBehaviour
                 myRigidBody.AddForce(movementx);
                 
              }
-        if (transform.position.x > -2f)
-        {
+            if (transform.position.x > -2f)
+            {
             transform.position = new Vector2(-2f, transform.position.y);
-            // myRigidBody.AddForce(-force);
             myRigidBody.velocity = new Vector2(0, myRigidBody.velocity.y);
-        }
-        if (Input.GetAxis("HorizontalLeft") < -0.1) // left
+            }
+            if (transform.position.x < -11f)
+            {
+            transform.position = new Vector2(-11f, transform.position.y);
+            myRigidBody.velocity = new Vector2(0, myRigidBody.velocity.y);
+            }
+            if (Input.GetAxis("HorizontalLeft") < -0.1) // left
             {
                 myRigidBody.AddForce(-movementx);
             }

@@ -42,7 +42,11 @@ public class RightController : MonoBehaviour
         if (myRigidBody.transform.position.x < 2f)
         {
             myRigidBody.transform.position = new Vector2(2f, transform.position.y);
-            // myRigidBody.AddForce(-force);
+            myRigidBody.velocity = new Vector2(0, myRigidBody.velocity.y);
+        }
+        if (myRigidBody.transform.position.x > 11f)
+        {
+            myRigidBody.transform.position = new Vector2(11f, transform.position.y);
             myRigidBody.velocity = new Vector2(0, myRigidBody.velocity.y);
         }
     }
