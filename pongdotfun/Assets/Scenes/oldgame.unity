@@ -175,7 +175,7 @@ MonoBehaviour:
   Ball: {fileID: 1238826562}
   Slab: {fileID: 1079522358}
   Slab2: {fileID: 668366207}
-  speed: 5
+  speed: 10
 --- !u!114 &573487476
 MonoBehaviour:
   m_ObjectHideFlags: 0
